@@ -1,0 +1,35 @@
+#info {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+#info .contenedor {
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center;
+}
+
+.info-draven {
+    margin: 20px;
+}
+
+.info-draven img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+
+@media (min-width:480px) {
+    .info-draven {
+        width: 40%;
+    }
+}
+
+@media (min-width:1024px) {
+    .info-draven {
+        width: auto;
+    }
+}
